@@ -1,0 +1,46 @@
+body
+{
+    background-position: center;
+    background-size: cover;
+}
+
+.heading
+{
+font-size: 50px;
+width: 100%;
+margin: 0px;
+color: white;
+background-color: rgb(20, 133, 20);
+}
+
+.divLegal
+{
+    width: 550px;
+    height: 60px;
+    background-color: forestgreen;
+    border-radius: 12px;
+}
+
+.divMaroMeno
+{
+    width: 475px;
+    height: 350px;
+    background-color: rgb(19, 107, 19);
+    border-radius: 10px;
+}
+
+.divChata
+{
+    width: 400px;
+    height: 325px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nome
+{
+font-size: 18px;
+width: 300px;
+border-radius: 20px;
+color: black;
+}
