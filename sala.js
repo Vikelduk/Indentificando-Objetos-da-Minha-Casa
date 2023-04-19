@@ -4,7 +4,7 @@ objects = [];
 
 function preload()
 {
-    img = loadImage('decoracao-lucianecandido-219036-proportional-height_cover_medium.jpg');
+    img = loadImage('Fonte-Meet-Arquitetura-e-Interiores-770x513.webp  ');
 }
 
 function setup()
