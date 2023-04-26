@@ -1,0 +1,42 @@
+body
+{
+    background-position: center;
+    background-size: cover;
+}
+
+.heading
+{
+    font-size: 40px;
+    width: 100%;
+    margin: 0px;
+    color: white;
+    background-color: rgb(20, 133, 20);
+}
+
+.divLegal
+{
+    width: 800px;
+    height: 73px;
+    background-color: forestgreen;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#status, #bebela, #startModel
+{
+    font-size: 18px;
+    height: 45px;
+}
+
+canvas
+{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+
+.vlt
+{
+    width: 100px;
+    font-size: 20px;
+    float: left; 
+}

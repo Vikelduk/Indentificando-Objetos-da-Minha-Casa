@@ -58,5 +58,5 @@ function draw()
 
 function voltar()
 {
-    window.location = "index.html"
+    window.location = "objetos.html"
 }

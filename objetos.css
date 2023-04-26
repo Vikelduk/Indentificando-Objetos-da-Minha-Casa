@@ -24,7 +24,7 @@ background-color: rgb(20, 133, 20);
 .divMaroMeno
 {
     width: 475px;
-    height: 175px;
+    height: 350px;
     background-color: rgb(19, 107, 19);
     border-radius: 10px;
 }
@@ -32,7 +32,7 @@ background-color: rgb(20, 133, 20);
 .divChata
 {
     width: 400px;
-    height: 150px;
+    height: 325px;
     background-color: white;
     border-radius: 10px;
 }
@@ -43,4 +43,11 @@ font-size: 18px;
 width: 300px;
 border-radius: 20px;
 color: black;
+}
+
+.vlt
+{
+    width: 100px;
+    font-size: 20px;
+    float: left; 
 }
