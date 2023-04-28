@@ -15,30 +15,36 @@ body
 
 .divLegal
 {
-    width: 800px;
-    height: 73px;
+    width: 60%;
+    height: 90px;
     background-color: forestgreen;
+    border-radius: 12px;
+}
+
+.divChata
+{
+    width: 700px;
+    height: 73px;
+    background-color: rgb(32, 138, 45);
     border-radius: 12px;
     text-align: center;
 }
 
-#status, #bebela, #startModel
+.lacoba
+{
+    font-size: 30px;
+}
+
+#start, #numberOfObjects, #status
 {
     font-size: 18px;
     height: 45px;
 }
 
-canvas
+#input
 {
-    box-shadow: 10px 10px 10px grey;
-    border-radius: 10px;
-}
-
-.vlt
-{
-    width: 100px;
-    font-size: 20px;
-    float: left; 
+    width: 85%;
+    border-radius: 12px;
 }
 
 .copyrightfooter 
@@ -52,4 +58,17 @@ canvas
     text-align: center;
     line-height: 2.5;
     text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
+
+canvas
+{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+
+.vlt
+{
+    width: 100px;
+    font-size: 20px;
+    float: left; 
 }

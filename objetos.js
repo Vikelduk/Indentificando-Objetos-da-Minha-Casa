@@ -23,6 +23,11 @@ function quartoBagunca()
     window.location = "bagunca.html";
 }
 
+function especifico()
+{
+    window.location = "especifico.html";
+}
+
 function voltar()
 {
     window.location = "index.html"

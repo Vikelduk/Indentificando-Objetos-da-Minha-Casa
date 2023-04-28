@@ -1,0 +1,47 @@
+<html>
+<head>
+
+	<title>Minha Casa Minha Vida</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="especifico.css">
+</head>
+
+<body background="quadro-detetive-com-fotos-da-cena-do-crime-pistas-adesivas-e-linha-vermelha-na-parede-de-detetives-linhas-vermelhas-204478824.jpg">
+<center>
+  <h1 class="btn btn-success heading">
+    <button onclick="voltar()" class=" btn btn-danger vlt">Voltar</button>
+     Localizador de Objetos da Minha Casa</h1>
+ 
+    
+  <div class="divLegal">
+    <h3 class="lacoba">Escreva o nome do objeto que queira achar (Em Inglês).</h3>
+    <input type="text" id="input">
+
+    <br>
+
+    <div class="divChata">
+      <h3 id="status" class="btn btn-danger quadrado">Modo: Inicie para Começar</h3>
+      <button onclick="start();" class="btn btn-info quadrado" id="start">Iniciar</button>
+      <h3 id="numberOfObjects" class="btn btn-warning quadrado">Local: Inicie para Começar</h3>
+  </div>
+  </div>
+ 
+</center>
+
+<div class="copyRightFooter">
+  Desenvolvido por Vitor Klein
+</div>
+
+<script src="especifico.js"></script>
+
+</body>
+
+</html>
