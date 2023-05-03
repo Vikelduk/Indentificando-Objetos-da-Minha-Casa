@@ -30,6 +30,12 @@ body
     text-align: center;
 }
 
+.quadrado
+{
+    margin: 10px;
+    width: 300px;
+}
+
 .lacoba
 {
     font-size: 30px;
@@ -62,7 +68,7 @@ body
 
 canvas
 {
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px green;
     border-radius: 10px;
 }
 
