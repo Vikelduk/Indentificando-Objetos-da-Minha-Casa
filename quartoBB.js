@@ -3,7 +3,7 @@ objects = [];
 
 function preload()
 {
-    alarme = loadSound('alarm_clock_old.mp3');
+    alarme = createSound('alarm_clock_old.mp3');
 }
 
 function setup()
@@ -12,7 +12,6 @@ function setup()
     canvas.position(500, 130);
 
     video = createCapture(VIDEO);
-    video.size(380, 380);
     video.hide()
 }
 

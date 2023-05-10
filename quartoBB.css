@@ -15,7 +15,7 @@ body
 
 .divLegal
 {
-    width: 800px;
+    width: 900px;
     height: 73px;
     background-color: forestgreen;
     border-radius: 12px;
@@ -25,7 +25,9 @@ body
 #status, #bebela, #startModel
 {
     font-size: 18px;
+    margin: 10px;
     height: 45px;
+    width: 275px;
 }
 
 canvas
