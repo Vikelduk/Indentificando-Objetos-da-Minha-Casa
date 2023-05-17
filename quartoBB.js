@@ -3,7 +3,7 @@ objects = [];
 
 function preload()
 {
-    alarme = createSound('alarm_clock_old.mp3');
+    alarme = new Audio('alarm_clock_old.mp3');
 }
 
 function setup()
@@ -50,7 +50,7 @@ function draw()
 
         for (i = 0; i < objects.lenght; i++)
         {
-            bebe = results[i].label;
+            bebe = objects[i].label;
 
             if (bebe == "person")
             {
