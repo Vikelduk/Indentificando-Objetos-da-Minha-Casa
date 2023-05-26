@@ -43,26 +43,34 @@ function gotResult(error, results)
 function draw()
 {   
     image(video, 0, 0, 380, 380);
+    console.log("Objetos = " + objects.lenght + ";");
 
     if (status != "")
     {
         objectDetector.detect(video, gotResult);
 
-        for (i = 0; i < objects.lenght; i++)
+        if (objects.lenght > 0)
         {
-            bebe = objects[i].label;
-
-            if (bebe == "person")
+            for (i = 0; i < objects.lenght; i++)
             {
-                document.getElementById("bebela").innerHTML = "Bebê Detectado";
-            }
-            else
-            {
-                alarme.play();
-                document.getElementById("bebela").innerHTML = "Bebê não Detectado";
-            }
+                bebe = objects[i].label;
 
-            document.getElementById("status").innerHTML = "Modo: Monitorando o Ambiente";
+                if (bebe == 'person')
+                {
+                    document.getElementById("bebela").innerHTML = "Bebê Detectado";
+                }
+                else
+                {
+                    alarme.play();
+                    document.getElementById("bebela").innerHTML = "Bebê não aparente!";
+                }
+        
+                document.getElementById("status").innerHTML = "Modo: Monitorando o Ambiente";
+            }  
+        }
+        else
+        {
+            document.getElementById("bebela").innerHTML = "Nenhum objeto encontrado";
         }
     }
 }
