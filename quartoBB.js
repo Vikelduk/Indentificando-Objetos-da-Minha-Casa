@@ -43,21 +43,21 @@ function gotResult(error, results)
 function draw()
 {   
     image(video, 0, 0, 380, 380);
-    console.log("Objetos = " + objects.lenght + ";");
 
     if (status != "")
     {
         objectDetector.detect(video, gotResult);
 
-        if (objects.lenght > 0)
+        if (objects.length > 0)
         {
-            for (i = 0; i < objects.lenght; i++)
+            for (i = 0; i < objects.length; i++)
             {
                 bebe = objects[i].label;
 
                 if (bebe == 'person')
                 {
                     document.getElementById("bebela").innerHTML = "Bebê Detectado";
+                    alarme.pause();
                 }
                 else
                 {

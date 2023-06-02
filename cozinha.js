@@ -41,7 +41,7 @@ function draw()
 
     if (status != "")
     {
-        for (i = 0; i < objects.lenght; i++)
+        for (i = 0; i < objects.length; i++)
         {
             porcent = floor(objects[i].confidence * 100); 
             
