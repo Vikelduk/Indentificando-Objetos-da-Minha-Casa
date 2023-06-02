@@ -40,9 +40,11 @@ background-color: rgb(20, 133, 20);
 .nome
 {
 font-size: 18px;
-width: 300px;
+width: 200px;
+height: 60px;
 border-radius: 20px;
 color: black;
+text-align: center;
 }
 
 .vlt
@@ -50,6 +52,14 @@ color: black;
     width: 100px;
     font-size: 20px;
     float: left; 
+}
+
+.lala
+{
+    background-color: red;
+    border-radius: 10px;
+    height: 78px;
+    width: 300px;
 }
 
 .copyrightfooter 

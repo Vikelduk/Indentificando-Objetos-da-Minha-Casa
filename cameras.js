@@ -7,3 +7,8 @@ function quartoBB()
 {
     window.location = "quartoBB.html";
 }
+
+function portao()
+{
+    window.location = "portao.html";
+}

@@ -11,31 +11,19 @@
 
   <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
   
-  <link rel="stylesheet" type="text/css" href="cameras.css">
+  <link rel="stylesheet" type="text/css" href="portao.css">
 </head>
-<body background="camareLeragaulo.jpg">
+<body background="portao_de_casa_abcdefghi.jpg">
   
   <center>
     <h1 class="btn btn-success heading">
-      <button onclick="voltar()" class=" btn btn-danger vlt">Voltar</button>
-      Monitoramento Da Minha Casa</h1>
+        <button onclick="voltar()" class=" btn btn-danger vlt">Voltar</button>
+        Monitoramento do Portão da Casa</h1>
 
     <div class="divLegal">
-
-      <br>
-
-      <div class="divMaroMeno">
-      <div class="divChata">
-
-          <br>
-    
-          <button onclick="quartoBB()" class="btn btn-info nome">Quarto do Bebê</button>
-
-          <br><br>
-
-          <button onclick="portao()" class="btn btn-info nome">Portão da Casa</button>
-          </div>
-      </div>
+        <h3 id="status" class="btn btn-danger quadrado">Modo: Inicie o Modo Segurança</h3>
+        <button onclick="start();" class="btn btn-info quadrado" id="startModel">Ativar o Modo Segurança</button>
+        <h3 id="bebela" class="btn btn-warning quadrado">Local: Inicie o Modo Segurança</h3>
     </div>
   </center>
 
@@ -43,7 +31,7 @@
     Desenvolvido por Vitor Klein
   </div>
 
-  <script src="cameras.js"></script>
+  <script src="portao.js"></script>
 
 </body>
 </html>

@@ -7,3 +7,8 @@ function cameras()
 {
     window.location = "cameras.html";
 }
+
+function contas()
+{
+    window.location = "contas.html";
+}
